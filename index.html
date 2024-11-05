@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Vendas de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <header>
+        <h1>Grafico de Vendas da Livraria Mundo Literário</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Minha região</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container" class="graficos-container">
+            <p class="graficos-container_texto">
+                Você sabia que vendemos mais de <strong class="spant">200</strong> tipos de livros, com um total aproximado de <strong class="spant">500 vendas</strong> por dia, e nossos clientes ficam em média <strong class="spant">1,5 horas</strong> na nossa livraria?
+            </p>
+        </section>
+    </main>
+    <div class="container8">
+        <h1 style="color: #F05454;">Gráfico de Vendas de Livros no Mês</h1>
+        <div class="content">
+            <canvas id="myChart" width="800" height="400"></canvas>
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por João victor Rantin Silverio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
